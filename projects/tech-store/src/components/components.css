@@ -1,0 +1,67 @@
+/*Navbar styles*/
+.navbar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: .4rem;
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-icon {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.icon-span {
+    font-weight: bold;
+}
+
+/*nav links styles*/
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.cart-widget {
+    color: whitesmoke;
+    background-color: #333;
+    border: 0cap;
+}
+
+/*Burguer Button styles*/
+.brgr-style {
+    color: whitesmoke;
+    background-color: #333;
+    border: 0cap;
+}
+
+.brgr-style:hover {
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+/*Compoents Media quieries*/
+@media (min-width: 600px) {
+
+    /* styles for screens smaller than 768px */
+    .burguer-button {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-links {
+        display: none;
+    }
+}
