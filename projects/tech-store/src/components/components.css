@@ -51,6 +51,38 @@
     left: 0;
 }
 
+/*Counter btns class*/
+.counter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.btn-dark-menos{
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.btn-dark-menos:hover{
+    background-color: rgba(189, 18, 18, 0.774);
+    color: #333;
+}
+
+.btn-dark{
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.btn-dark:hover{
+    background-color: rgba(27, 27, 189, 0.699);
+    color: #333;
+
+}
+
+
+
 /*Compoents Media quieries*/
 @media (min-width: 600px) {
 

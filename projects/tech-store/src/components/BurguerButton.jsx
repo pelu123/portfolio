@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 const BurguerButton = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,4 +27,4 @@ const BurguerButton = () => {
     );
 }
 
-export default BurguerButton;
+export default BurguerButton
